@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inscribirse</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link  rel="stylesheet" href="InscribirseCCS.css">
+<link rel="icon" type="image/png" href="logo/Captura.png"/>
+    <script>src="validar.js"</script>
+</head>
+<body background="fondos/opcion10.jpg" >
+<header>
+			<nav class="menu-fixed">
+				<ul class="menu">
+					<li><a href="Proyecto Ambiental.html">Inicio  </a></li>
+					<li><a href="NOTICIAS.html">          Noticias</a>
+						<ul class="submenu">
+							<li><a href="bolsas.html">              Bolsas </a></li>
+							<li><a href="vida marina.html">    Vida Marina</a></li>
+						</ul>
+					</li>
+					<li><a href="Foro.html">              Foro </a></li>
+					<li><a href="quienes.html">  	      Quienes somos</a></li>
+                    <li><a href="inscribirse.html">  	  Inscribete</a></li>
+                    <li><a href="login.php">  	          Iniciar secion</a></li>
+		            <li><a href="donacion.html">  		  Donaciones</a></li>
+				</ul>
+	</nav>	
+	</header>
+<BR><BR><BR><BR>
+	<center>
+	<img src="logo/liato.png" alt="">
+	</center>
+	</BR>
+<!--Aqui empieza el formulario de registro-->   
+<h1>Formulario de registro</h1>
+<form action="registrar.php" method="post" class="form-register" onsubmit="return validar();">
+<h2 class="form__titulo">Crea una cuenta</h2>
+<div class="contenedor-input"> 
+<input type="text"     id ="nombre"    name="nombre"          placeholder="nombre"     class="input-48" required>
+<input type="text"     id ="apellidos" name="apellidos"       placeholder="apellidos"  class="input-48" required>
+<input type="email"    id ="correo"    name="correo"          placeholder="correo"     class="input-100" required>
+<input type="text"     id ="usuario"   name="usuario"         placeholder="usuario"    class="input-48" required>
+<input type="password" id ="clave"     name="clave"           placeholder="clave"      class="input-48" required>
+<input type="text"     id ="telefono"  name="telefono"        placeholder="telefono"   class="input-100" required>   
+<input type="submit" value="registrar" class="btn-enviar">
+    
+<p class="form__link">¿Ya tienes una cuenta? <a href="login.php">INGRESA AQUI<a/></p>
+</div>
+</form>
+
+<!--informacion ppara contactar-->
+	<div class="contenedo4" style="color:white;background-color:BLACK">
+	<center>
+	<p>
+	<B>
+	!Contáctanos a nuestro correo electrónico¡
+	p.ambiental.itnl@gmail.com
+	</B>
+    </p>
+	<p>
+	<B>
+	!ó tambien a nuestras redes sociales¡
+	</B>
+    </p>
+	<p>
+	
+	<center>
+	<a href="https://twitter.com/ambientaltecnl?lang=es" TARGET="_BLANK"><img src="TwitterLogo.png"> </a>
+
+	<a href="https://www.youtube.com/channel/UCZpBP1iBYVFunmPWqHQnS-A?view_as=subscriber"TARGET="_BLANK"><img src="YoutubeLogo.png"> </a>
+
+	<a href="https://www.facebook.com/Espacio-Verde-610718049345967/"TARGET="_BLANK"><img src="FacebookLogo.png"> </a>
+	</center>
+    </p>
+	</center>
+	</div>
+</body>
+</html>
